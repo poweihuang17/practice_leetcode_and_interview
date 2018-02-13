@@ -7,6 +7,9 @@ class Solution(object):
 
         table=[[[0]*len(grid) for i in xrange(len(grid))] for i in xrange(len(grid))]
 
+        for y1 in xrange(0,len(grid)):
+        	for x2 in xrange(0,len(grid)):
+        		
 
         for x1 in xrange(1,len(grid)):
         	for y1 in xrange(1,len(grid)):
@@ -14,7 +17,7 @@ class Solution(object):
         			if grid[x1][y1]==-1 or grid[x2][x1+y1-x2]==-1
         				table[x1][y1][x2]=0
         			else:
-        				table[x1][y1][x2]=(x1!=x2)+1+max(table[x1-1][y1][x2-1],table[x1][y1-1][x2-1],table[x1][y1-1][x2],table[x1-1][y1][x2])
+        				table[x1][y1][x2]=(x1!=x2)*grid[x2][y2]+grid[x1][y1]+max(table[x1+1][y1][x2+1],table[x1][y1+1][x2+1],table[x1][y1+1][x2],table[x1+1][y1][x2])
 
 
 
