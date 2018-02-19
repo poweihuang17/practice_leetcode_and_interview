@@ -27,10 +27,10 @@ class Solution(object):
        					table[i][j]=table[i][j-1] or table[i-2][j-1] or table[i-2][j]
        				elif p[i-2]!=s[j-1]:
        					table[i][j]=table[i-2][j]
-       	
+       	'''
        	for i in range(len(p)+1):
        		print table[i]
-		
+		'''
        	return table[len(p)][len(s)]
 s=Solution()
 #print s.isMatch("aa","a")
