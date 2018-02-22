@@ -1,3 +1,4 @@
+#Substring and subsequence are different.
 class Solution(object):
     def lengthOfLongestSubstringTwoDistinct(self, s):
         """
