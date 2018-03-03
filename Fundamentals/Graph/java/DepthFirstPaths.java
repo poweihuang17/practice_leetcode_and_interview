@@ -5,10 +5,11 @@
 public class DepthFirstPaths
 {
 	private boolean [] marked;
-	private int edgeTo;
+	private int [] edgeTo;
 	private int s;
+	
 
-	public DepthFirstSearch(Graph G, int S)
+	public DepthFirstPaths(Graph G, int S)
 	{
 		dfs(G,s);
 	}

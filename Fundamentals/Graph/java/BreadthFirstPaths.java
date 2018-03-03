@@ -3,8 +3,9 @@ public class BreadthFirstPaths
 	private boolean [] marked;
 	private int [] edgeTo;
 	private final int s;
+	private int [] distTo;
 
-	public BreadthFirstSearch(Graph G, int S)
+	public BreadthFirstPaths(Graph G, int S)
 	{
 		dfs(G,s);
 	}
@@ -14,6 +15,8 @@ public class BreadthFirstPaths
 		Queue<Integer> q=new Queue<Integer>();
 		q.enqueue(s);
 		marked[s]=true;
+		disTo[s]=0;
+
 		while(!q.isEmpty())
 		{
 			int v=q.dequeue();
@@ -24,6 +27,7 @@ public class BreadthFirstPaths
 					q.enqueue(w);
 					marked[w]=true;
 					edgeTo[w]=v;
+					distTo[w]=distTo[v]+1;
 				}
 			}
 		}
