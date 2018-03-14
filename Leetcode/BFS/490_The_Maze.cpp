@@ -13,7 +13,7 @@ public:
 
      if(start[0]>=0 && start[0]<row && start[1]>=0 && start[1]<col && !maze[start[0]][start[1]])
      	{
-     		if (r== destination[0] && c==destination[1]) return true;
+     		if (start[0]== destination[0] && start[1]==destination[1]) return true;
      		myqueue.push({start[0],start[1]});
      		visited[start[0]][start[1]]=true;
 
