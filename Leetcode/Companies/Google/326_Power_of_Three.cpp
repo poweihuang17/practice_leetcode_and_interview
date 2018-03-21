@@ -1,3 +1,5 @@
+//There are actually many better solutions.
+//Need to find it out later.
 class Solution {
 public:
     bool isPowerOfThree(int n) {
