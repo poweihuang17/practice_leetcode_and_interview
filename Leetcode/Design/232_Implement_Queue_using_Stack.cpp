@@ -12,33 +12,21 @@ public:
     
     /** Removes the element from in front of queue and returns that element. */
     int pop() {
-        while(instack.size()>0){
-            outstack.push(instack.top());
-            instack.pop();
-        }
-        int temp=outstack.top();
+        int temp=peek();
         outstack.pop();
-        while(outstack.size()>0)
-        {
-            instack.push(outstack.top());
-            outstack.pop();
-        }
         return temp;
     }
     
     /** Get the front element. */
     int peek() {
-        while(instack.size()>0){
-            outstack.push(instack.top());
-            instack.pop();
-        }
-        int temp=outstack.top();
-        while(outstack.size()>0)
-        {
-            instack.push(outstack.top());
-            outstack.pop();
-        }
-        return temp;
+        if(outstack.empty())
+            while(instack.size()>0)
+            {
+                outstack.push(instack.top());
+                instack.pop();
+            }
+
+        return outstack.top();
     }
     
     /** Returns whether the queue is empty. */
