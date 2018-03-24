@@ -1,3 +1,9 @@
+/*
+Fuck, this solution use O(logn) spaces....
+Need to use O(1) space....
+Need to think about it later.
+*/
+
 /**
  * Definition for binary tree with next pointer.
  * struct TreeLinkNode {
