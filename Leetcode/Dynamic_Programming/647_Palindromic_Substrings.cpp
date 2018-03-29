@@ -1,3 +1,4 @@
+// Need to think about one more solution about DP.
 class Solution {
 public:
     int countSubstrings(string s) {
