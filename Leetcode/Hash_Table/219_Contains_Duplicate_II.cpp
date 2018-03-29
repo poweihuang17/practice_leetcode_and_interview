@@ -1,3 +1,4 @@
+//We could also use set and erase to finish this problem.
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
