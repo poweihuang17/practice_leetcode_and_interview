@@ -35,3 +35,6 @@ public:
     	}
     }
 };
+
+// This problem also has DP and Math solution, beside the backtracking solution.
+// Need to learn 2 or 3 solutions for each problem.
