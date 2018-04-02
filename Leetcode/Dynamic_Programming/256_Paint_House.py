@@ -1,4 +1,4 @@
-
+# 0402 updated. Leetcode passed.
 class Solution(object):
     def minCost(self, costs):
         """
