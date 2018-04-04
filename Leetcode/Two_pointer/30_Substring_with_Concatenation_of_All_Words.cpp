@@ -1,3 +1,6 @@
+//After more thought, I think the problem doesn't need two counters.
+//My control logic about counter is too chaotic and this is the reason which make me use two counter.
+//Actually, this problem only need one problem, after more thought.
 class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
