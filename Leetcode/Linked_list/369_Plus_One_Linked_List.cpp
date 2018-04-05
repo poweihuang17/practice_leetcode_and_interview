@@ -6,6 +6,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+//6ms....beat 12.83%...
 class Solution {
 public:
     ListNode* plusOne(ListNode* head) {
