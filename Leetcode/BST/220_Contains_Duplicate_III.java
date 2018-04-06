@@ -18,3 +18,5 @@ class Solution {
         return false;
     }
 }
+//Edward shi's bucket method in java: https://www.youtube.com/watch?v=pcNkFM-Dkqg
+// Need to read it next time.
