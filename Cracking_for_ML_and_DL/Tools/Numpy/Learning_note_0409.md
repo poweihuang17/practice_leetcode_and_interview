@@ -18,3 +18,11 @@
 - arange: similar to range in python. with steps.
 - reshape: reshape it into mxr
 - linspace: could define how many parts will we have.
+
+## Basic operation
+- +: add element by element
+- **: square or... x**2=x**x element by element.
+- b<3: true or false for every element
+- matrix operation : * for element-wise, dot for matrix multiplication
+- random.random- initialize a random matrix
+- sum/min/max could be applied through axis. The axis=i means for loop through the ith index.
