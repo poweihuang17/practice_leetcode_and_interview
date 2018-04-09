@@ -8,3 +8,8 @@
 - introduce plot & show
 - The buttons on the figure are actually pretty important!
 - What's the usage of left and right button?
+
+## Figure
+- Add a figure by calling figure API
+- Use parameter to change the name and figure size
+- Use parameter to change the line width and color for each curve.
