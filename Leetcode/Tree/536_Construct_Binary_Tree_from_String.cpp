@@ -27,6 +27,7 @@ private:
 		{
 			i++;
 		}
+		it (s.substr(start,i-start)=="") return nullptr;
 		int num=stoi(s.substr(start,i-start));
 		TreeNode * node= new TreeNode(num);
 		if(s[i]=='(')
