@@ -40,4 +40,11 @@
 - clip: saturation
 - Each operation could select axis
 
-##  
+##  Numpy index
+- A[1][2], A[1,2], A[1,:],A[1,1:2]
+- Q : How to do index iteration for a numpy matrix?
+- For loop for row and column(use transpose)
+- flat and flatten- iterate through all item.
+- Did I miss anything in this clip?
+- Maybe....
+- Need to check it later.
