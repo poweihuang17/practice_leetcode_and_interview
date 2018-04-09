@@ -26,3 +26,18 @@
 - matrix operation : * for element-wise, dot for matrix multiplication
 - random.random- initialize a random matrix
 - sum/min/max could be applied through axis. The axis=i means for loop through the ith index.
+
+## Basic operation II
+- argmin: index of minimum value: flattened index
+- argmax: index of maximum value
+- Why flattened index? I don't know...
+- mean and average are all for calculation of average number.
+- Half of this clip. Maybe need to stop.
+- median/cumsum/diff : easy to understand
+- nonzero: this is really hard to understand why do we need this.
+- sort: sort by each row.
+- transpose
+- clip: saturation
+- Each operation could select axis
+
+##  
