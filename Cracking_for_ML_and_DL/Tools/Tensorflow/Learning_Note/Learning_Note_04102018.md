@@ -22,3 +22,7 @@
 ## Placeholder
 - Data from outside will need to use this.
 
+## Activation function
+- Not hard. But I'm getting confused....
+- Stop at the end of Tensorflow 10 of Morvan's clips.
+
