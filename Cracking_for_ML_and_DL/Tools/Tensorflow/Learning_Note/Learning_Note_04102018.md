@@ -26,3 +26,10 @@
 - Not hard. But I'm getting confused....
 - Stop at the end of Tensorflow 10 of Morvan's clips.
 
+
+## Now 0410  13:58 2018. Not sure what the above is.
+## Probably needs to record a lot.
+- But it's just a pattern. The most important part is not framework. It's the model!
+- Just a lot of API.
+- Similar to Verilog 
+
