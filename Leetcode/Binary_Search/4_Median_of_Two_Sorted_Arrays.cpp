@@ -1,3 +1,6 @@
+//This is not a Olog(m+n) solution....
+//If the value is not all positive, this method failed....
+
 class Solution {
 
 private:
